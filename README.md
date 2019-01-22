@@ -9,4 +9,8 @@ To Run the Project
 ```
 npm start
 ```
+And view the Website at
+```
+(http://localhost:8080/)
+```
 
