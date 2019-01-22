@@ -11,6 +11,6 @@ npm start
 ```
 And view the Website at
 ```
-(http://localhost:8080/)
+[http://localhost:8080/](http://localhost:8080/)
 ```
 
