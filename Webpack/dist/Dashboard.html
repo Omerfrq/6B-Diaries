@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/css/profile.css">
+    <title>Document</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                  <a class="nav-item nav-link" href="Dashboard.html">Dashboard</a>
+                    <a class="nav-item nav-link" href="index.html">Profile Search</a>
+                  </div>
+                </div>
+              </nav>
+
+              <div class="container  mt-3">
+                    <form class="dashboard-search">
+                            <div class="form-row">
+                            <div class="col-9">
+                                <input
+                                type="text"
+                                class="form-control search-field"
+                                placeholder="Value"
+                                name="searchterm"
+                                />
+                            </div>
+                            <div class="col-3">
+                                <button type="submit" class="btn btn-primary btn-block">Search Profile</button>
+                            </div>
+                            </div>
+                        </form>
+              </div>
+
+			  <div class="container my-profile mt-4">
+			   <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-4 col-xlg-3 col-md-5">
+                        <!-- Column -->
+                        <div class="card user-card p-1">
+                            <img class="card-img-top" src="assets/images/background/profile-bg.jpg" alt="Card image cap">
+                            <div class="card-block little-profile text-center">
+                                <div class="pro-img"><img src="assets/images/users/4.jpg" alt="user" /></div>
+                                <h3 class="font-weight-light">@Omer Farooq</h3>
+                                <p class="text-info font-weight-bold">Bahria University Islamabad</p>
+                                <div class="row text-center">
+                                    <div class="col-lg-4 col-md-4">
+                                        <h6 >Degree</h6>
+                                        <small class="text-primary font-weight-bold">BSIT</small>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 ">
+                                        <h6 >Year</h6>
+                                        <small class="text-primary font-weight-bold">3rd</small>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <h6 >Enrollment</h6>
+                                        <small class="text-primary font-weight-bold">01-235161-081</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column -->
+                    </div>
+                    <div class="col-lg-8 col-xlg-9 col-md-7 font-weight-light">
+                        <div class="card">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs profile-tab" role="tablist">
+                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Activity</a> </li>
+                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Profile</a> </li>
+                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#hobbies" role="tab">Hobbies</a> </li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="home" role="tabpanel">
+                                    <div class="card-block">
+                                        <table class="table table-bordered table-striped table-hover">
+                                            <thead>
+                                              <tr>
+                                                <th class="font-weight-light text-primary">#</th>
+                                                <th class="text-primary">Semester Projects</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody class="semester-table">
+                                              <tr>
+                                                <th class="font-weight-normal text-info"  scope="row">1</th>
+                                                <td>Resourcemanagement System</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th class="font-weight-normal text-info" scope="row">2</th>
+                                                <td>Weather App</td>
+                                               
+                                              </tr>
+                                              <tr>
+                                                <th class="font-weight-normal text-info" scope="row">3</th>
+                                                <td>Movie Search App</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                    </div>
+                                </div>
+                                <!--second tab-->
+                                <div class="tab-pane" id="profile" role="tabpanel">
+                                    <div class="card-block p-2">
+                                    <div class="profile-info">
+                                        <div class="row">
+                                            <div class="col-md-3 col-xs-6 p-3">
+                                                <strong class="text-primary">Full Name</strong>
+                                                <br>
+                                                <p class="text-muted">Omer Farooq</p>
+                                            </div>
+                                            <div class="col-md-3 col-xs-6 p-3">
+                                                <strong class="text-primary">Mobile</strong>
+                                                <br>
+                                                <p class="text-muted">03129534758</p>
+                                            </div>
+                                            <div class="col-md-4 col-xs-6 p-3">
+                                                <strong class="text-primary">Email</strong>
+                                                <br>
+                                                <p class="text-muted"><a href="mailto:omerfrq7@gmail.com">omerfrq7@gmail.com</a></p>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <h4 class="text-right text-primary">Skill Set</h4>
+                                        <hr>
+                                        <h6 class="font-weight-light">HTML</h6>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar"> </div>
+                                        </div>
+                                        <h6 class="font-weight-light">CSS</h6>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar">  </div>
+                                        </div>
+                                        <h6 class="font-weight-light">Jquery</h6>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar"> </div>
+                                        </div>
+                                        <h6 class="font-weight-light">Photoshop</h6>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar">  </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="tab-pane" id="hobbies" role="tabpanel">
+                                    <div class="card-block">
+                                            <table class="table table-bordered table-striped table-hover">
+                                                    <thead>
+                                                      <tr>
+                                                        <th class="font-weight-light text-primary">#</th>
+                                                        <th class="text-primary">Hobbies</th>
+                                                      </tr>
+                                                    </thead>
+                                                    <tbody class="hobbies-table">
+                                                      <tr>
+                                                        <th class="font-weight-normal text-primary" scope="row">1</th>
+                                                        <td>Esports</td>
+                                                        
+                                                      </tr>
+                                                      <tr>
+                                                        <th class="font-weight-normal text-primary"  scope="row">2</th>
+                                                        <td>Cricket</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <th class="font-weight-normal text-primary"  scope="row">3</th>
+                                                        <td>Football</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			  </div>
+			  
+              <!-- <div class="container mt-5">
+                <div class="row">
+                  <div class="col-md-4 border border-info rounded p-3">
+                      <div class="d-flex justify-content-end btn-group mb-2 text-center" role="group" aria-label="Basic example">
+                          <button type="submit" class="btn btn-secondary list-view">Pie Chart</button>
+                          <button type="button" class="btn btn-secondary pie-view">List</button>
+                        </div>
+            <div class="pie-chart gender">
+
+            </div>
+          </div>
+          <div class="col-md-7 border border-info rounded p-3 ml-2">
+              <div class="d-flex justify-content-end btn-group mb-2 text-center" role="group" aria-label="Basic example">
+                  <button type="submit" class="btn btn-secondary list-view">Pie Chart</button>
+                  <button type="button" class="btn btn-secondary pie-view">List</button>
+                </div>
+                <div class="pie-chart Age">
+
+                  </div>
+          </div>
+          </div>
+          </div>
+  <div class="container">
+    <div class="user-data">
+    </div>
+</div> -->
+</body>
+<script src="vendor/jquery/jquery.js"></script>
+<script src="vendor/js/bootstrap.js"></script>
+<script src="vendor/js/popper.min.js"></script>
+<script src="bundle.js"></script>
+</html>

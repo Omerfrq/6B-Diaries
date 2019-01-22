@@ -1,0 +1,52 @@
+.hero{
+    background:url('../../assets/img/karthik-swarnkar-542019-unsplash.jpg');
+    background-size:cover;
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar{
+    opacity: 0.93;
+}
+
+.jumbotron{
+    z-index:1;
+}
+
+.pill-data{
+    border:1px solid #495158;
+    width:400px;
+}
+
+.blue {
+    color:#6EA4CF;
+    
+}
+pre{
+    margin: 0;
+}
+
+.list-group{
+    max-height:140px;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+
+.list-group::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.list-group::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.list-group::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color:#a9a9a9;
+}

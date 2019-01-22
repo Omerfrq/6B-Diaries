@@ -1,0 +1,13 @@
+
+.hero{
+    background-image: url('../../assets/img/bg2.jpeg');
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: overlay;
+    height: 100vh;
+    transition: background-image 1s ease-out;
+    background-size: cover;
+}
+
+span{
+    word-break: break-all;
+}
